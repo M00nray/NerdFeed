@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D5E40917D49E8D006EA735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5E40817D49E8D006EA735 /* UIKit.framework */; };
+		84D5E40B17D49E8D006EA735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5E40A17D49E8D006EA735 /* Foundation.framework */; };
+		84D5E40D17D49E8D006EA735 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5E40C17D49E8D006EA735 /* CoreGraphics.framework */; };
+		84D5E40F17D49E8D006EA735 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5E40E17D49E8D006EA735 /* CoreData.framework */; };
+		84D5E41517D49E8D006EA735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D5E41317D49E8D006EA735 /* InfoPlist.strings */; };
+		84D5E41717D49E8D006EA735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5E41617D49E8D006EA735 /* main.m */; };
+		84D5E41B17D49E8D006EA735 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5E41A17D49E8D006EA735 /* AppDelegate.m */; };
+		84D5E41D17D49E8D006EA735 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5E41C17D49E8D006EA735 /* Default.png */; };
+		84D5E41F17D49E8D006EA735 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5E41E17D49E8D006EA735 /* Default@2x.png */; };
+		84D5E42117D49E8D006EA735 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5E42017D49E8D006EA735 /* Default-568h@2x.png */; };
+		84D5E42417D49E8D006EA735 /* NerdFeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D5E42217D49E8D006EA735 /* NerdFeed.xcdatamodeld */; };
+		84D5E42C17D49E8D006EA735 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5E42B17D49E8D006EA735 /* SenTestingKit.framework */; };
+		84D5E42D17D49E8D006EA735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5E40817D49E8D006EA735 /* UIKit.framework */; };
+		84D5E42E17D49E8D006EA735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5E40A17D49E8D006EA735 /* Foundation.framework */; };
+		84D5E42F17D49E8D006EA735 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5E40E17D49E8D006EA735 /* CoreData.framework */; };
+		84D5E43717D49E8D006EA735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D5E43517D49E8D006EA735 /* InfoPlist.strings */; };
+		84D5E43A17D49E8D006EA735 /* NerdFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5E43917D49E8D006EA735 /* NerdFeedTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D5E43017D49E8D006EA735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D5E3FD17D49E8D006EA735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D5E40417D49E8D006EA735;
+			remoteInfo = NerdFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D5E40517D49E8D006EA735 /* NerdFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NerdFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D5E40817D49E8D006EA735 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84D5E40A17D49E8D006EA735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84D5E40C17D49E8D006EA735 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84D5E40E17D49E8D006EA735 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84D5E41217D49E8D006EA735 /* NerdFeed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NerdFeed-Info.plist"; sourceTree = "<group>"; };
+		84D5E41417D49E8D006EA735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84D5E41617D49E8D006EA735 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D5E41817D49E8D006EA735 /* NerdFeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NerdFeed-Prefix.pch"; sourceTree = "<group>"; };
+		84D5E41917D49E8D006EA735 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D5E41A17D49E8D006EA735 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D5E41C17D49E8D006EA735 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84D5E41E17D49E8D006EA735 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84D5E42017D49E8D006EA735 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84D5E42317D49E8D006EA735 /* NerdFeed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NerdFeed.xcdatamodel; sourceTree = "<group>"; };
+		84D5E42A17D49E8D006EA735 /* NerdFeedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NerdFeedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D5E42B17D49E8D006EA735 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84D5E43417D49E8D006EA735 /* NerdFeedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NerdFeedTests-Info.plist"; sourceTree = "<group>"; };
+		84D5E43617D49E8D006EA735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84D5E43817D49E8D006EA735 /* NerdFeedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NerdFeedTests.h; sourceTree = "<group>"; };
+		84D5E43917D49E8D006EA735 /* NerdFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdFeedTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D5E40217D49E8D006EA735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5E40917D49E8D006EA735 /* UIKit.framework in Frameworks */,
+				84D5E40B17D49E8D006EA735 /* Foundation.framework in Frameworks */,
+				84D5E40D17D49E8D006EA735 /* CoreGraphics.framework in Frameworks */,
+				84D5E40F17D49E8D006EA735 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5E42617D49E8D006EA735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5E42C17D49E8D006EA735 /* SenTestingKit.framework in Frameworks */,
+				84D5E42D17D49E8D006EA735 /* UIKit.framework in Frameworks */,
+				84D5E42E17D49E8D006EA735 /* Foundation.framework in Frameworks */,
+				84D5E42F17D49E8D006EA735 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D5E3FC17D49E8D006EA735 = {
+			isa = PBXGroup;
+			children = (
+				84D5E41017D49E8D006EA735 /* NerdFeed */,
+				84D5E43217D49E8D006EA735 /* NerdFeedTests */,
+				84D5E40717D49E8D006EA735 /* Frameworks */,
+				84D5E40617D49E8D006EA735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D5E40617D49E8D006EA735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D5E40517D49E8D006EA735 /* NerdFeed.app */,
+				84D5E42A17D49E8D006EA735 /* NerdFeedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D5E40717D49E8D006EA735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D5E40817D49E8D006EA735 /* UIKit.framework */,
+				84D5E40A17D49E8D006EA735 /* Foundation.framework */,
+				84D5E40C17D49E8D006EA735 /* CoreGraphics.framework */,
+				84D5E40E17D49E8D006EA735 /* CoreData.framework */,
+				84D5E42B17D49E8D006EA735 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D5E41017D49E8D006EA735 /* NerdFeed */ = {
+			isa = PBXGroup;
+			children = (
+				84D5E41917D49E8D006EA735 /* AppDelegate.h */,
+				84D5E41A17D49E8D006EA735 /* AppDelegate.m */,
+				84D5E42217D49E8D006EA735 /* NerdFeed.xcdatamodeld */,
+				84D5E41117D49E8D006EA735 /* Supporting Files */,
+			);
+			path = NerdFeed;
+			sourceTree = "<group>";
+		};
+		84D5E41117D49E8D006EA735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D5E41217D49E8D006EA735 /* NerdFeed-Info.plist */,
+				84D5E41317D49E8D006EA735 /* InfoPlist.strings */,
+				84D5E41617D49E8D006EA735 /* main.m */,
+				84D5E41817D49E8D006EA735 /* NerdFeed-Prefix.pch */,
+				84D5E41C17D49E8D006EA735 /* Default.png */,
+				84D5E41E17D49E8D006EA735 /* Default@2x.png */,
+				84D5E42017D49E8D006EA735 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D5E43217D49E8D006EA735 /* NerdFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D5E43817D49E8D006EA735 /* NerdFeedTests.h */,
+				84D5E43917D49E8D006EA735 /* NerdFeedTests.m */,
+				84D5E43317D49E8D006EA735 /* Supporting Files */,
+			);
+			path = NerdFeedTests;
+			sourceTree = "<group>";
+		};
+		84D5E43317D49E8D006EA735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D5E43417D49E8D006EA735 /* NerdFeedTests-Info.plist */,
+				84D5E43517D49E8D006EA735 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D5E40417D49E8D006EA735 /* NerdFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5E43D17D49E8D006EA735 /* Build configuration list for PBXNativeTarget "NerdFeed" */;
+			buildPhases = (
+				84D5E40117D49E8D006EA735 /* Sources */,
+				84D5E40217D49E8D006EA735 /* Frameworks */,
+				84D5E40317D49E8D006EA735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NerdFeed;
+			productName = NerdFeed;
+			productReference = 84D5E40517D49E8D006EA735 /* NerdFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D5E42917D49E8D006EA735 /* NerdFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5E44017D49E8D006EA735 /* Build configuration list for PBXNativeTarget "NerdFeedTests" */;
+			buildPhases = (
+				84D5E42517D49E8D006EA735 /* Sources */,
+				84D5E42617D49E8D006EA735 /* Frameworks */,
+				84D5E42717D49E8D006EA735 /* Resources */,
+				84D5E42817D49E8D006EA735 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D5E43117D49E8D006EA735 /* PBXTargetDependency */,
+			);
+			name = NerdFeedTests;
+			productName = NerdFeedTests;
+			productReference = 84D5E42A17D49E8D006EA735 /* NerdFeedTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D5E3FD17D49E8D006EA735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Admin;
+			};
+			buildConfigurationList = 84D5E40017D49E8D006EA735 /* Build configuration list for PBXProject "NerdFeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84D5E3FC17D49E8D006EA735;
+			productRefGroup = 84D5E40617D49E8D006EA735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D5E40417D49E8D006EA735 /* NerdFeed */,
+				84D5E42917D49E8D006EA735 /* NerdFeedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D5E40317D49E8D006EA735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5E41517D49E8D006EA735 /* InfoPlist.strings in Resources */,
+				84D5E41D17D49E8D006EA735 /* Default.png in Resources */,
+				84D5E41F17D49E8D006EA735 /* Default@2x.png in Resources */,
+				84D5E42117D49E8D006EA735 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5E42717D49E8D006EA735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5E43717D49E8D006EA735 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84D5E42817D49E8D006EA735 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D5E40117D49E8D006EA735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5E41717D49E8D006EA735 /* main.m in Sources */,
+				84D5E41B17D49E8D006EA735 /* AppDelegate.m in Sources */,
+				84D5E42417D49E8D006EA735 /* NerdFeed.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5E42517D49E8D006EA735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5E43A17D49E8D006EA735 /* NerdFeedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D5E43117D49E8D006EA735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D5E40417D49E8D006EA735 /* NerdFeed */;
+			targetProxy = 84D5E43017D49E8D006EA735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D5E41317D49E8D006EA735 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5E41417D49E8D006EA735 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84D5E43517D49E8D006EA735 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5E43617D49E8D006EA735 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D5E43B17D49E8D006EA735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D5E43C17D49E8D006EA735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D5E43E17D49E8D006EA735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NerdFeed/NerdFeed-Prefix.pch";
+				INFOPLIST_FILE = "NerdFeed/NerdFeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84D5E43F17D49E8D006EA735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NerdFeed/NerdFeed-Prefix.pch";
+				INFOPLIST_FILE = "NerdFeed/NerdFeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84D5E44117D49E8D006EA735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NerdFeed.app/NerdFeed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NerdFeed/NerdFeed-Prefix.pch";
+				INFOPLIST_FILE = "NerdFeedTests/NerdFeedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84D5E44217D49E8D006EA735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NerdFeed.app/NerdFeed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NerdFeed/NerdFeed-Prefix.pch";
+				INFOPLIST_FILE = "NerdFeedTests/NerdFeedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D5E40017D49E8D006EA735 /* Build configuration list for PBXProject "NerdFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5E43B17D49E8D006EA735 /* Debug */,
+				84D5E43C17D49E8D006EA735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D5E43D17D49E8D006EA735 /* Build configuration list for PBXNativeTarget "NerdFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5E43E17D49E8D006EA735 /* Debug */,
+				84D5E43F17D49E8D006EA735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D5E44017D49E8D006EA735 /* Build configuration list for PBXNativeTarget "NerdFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5E44117D49E8D006EA735 /* Debug */,
+				84D5E44217D49E8D006EA735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84D5E42217D49E8D006EA735 /* NerdFeed.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84D5E42317D49E8D006EA735 /* NerdFeed.xcdatamodel */,
+			);
+			currentVersion = 84D5E42317D49E8D006EA735 /* NerdFeed.xcdatamodel */;
+			path = NerdFeed.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84D5E3FD17D49E8D006EA735 /* Project object */;
+}
