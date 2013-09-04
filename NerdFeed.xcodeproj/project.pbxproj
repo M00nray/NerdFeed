@@ -24,6 +24,9 @@
 		84D5E42F17D49E8D006EA735 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5E40E17D49E8D006EA735 /* CoreData.framework */; };
 		84D5E43717D49E8D006EA735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D5E43517D49E8D006EA735 /* InfoPlist.strings */; };
 		84D5E43A17D49E8D006EA735 /* NerdFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5E43917D49E8D006EA735 /* NerdFeedTests.m */; };
+		84D5E44517D4A132006EA735 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5E44417D4A132006EA735 /* ListViewController.m */; };
+		84D5E44817D4C85C006EA735 /* RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5E44717D4C85C006EA735 /* RSSChannel.m */; };
+		84FEF34B17D6597700AA15D5 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEF34A17D6597700AA15D5 /* RSSItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,12 @@
 		84D5E43617D49E8D006EA735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84D5E43817D49E8D006EA735 /* NerdFeedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NerdFeedTests.h; sourceTree = "<group>"; };
 		84D5E43917D49E8D006EA735 /* NerdFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdFeedTests.m; sourceTree = "<group>"; };
+		84D5E44317D4A132006EA735 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		84D5E44417D4A132006EA735 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		84D5E44617D4C85C006EA735 /* RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannel.h; sourceTree = "<group>"; };
+		84D5E44717D4C85C006EA735 /* RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannel.m; sourceTree = "<group>"; };
+		84FEF34917D6597700AA15D5 /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
+		84FEF34A17D6597700AA15D5 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +131,12 @@
 			children = (
 				84D5E41917D49E8D006EA735 /* AppDelegate.h */,
 				84D5E41A17D49E8D006EA735 /* AppDelegate.m */,
+				84D5E44317D4A132006EA735 /* ListViewController.h */,
+				84D5E44417D4A132006EA735 /* ListViewController.m */,
+				84D5E44617D4C85C006EA735 /* RSSChannel.h */,
+				84D5E44717D4C85C006EA735 /* RSSChannel.m */,
+				84FEF34917D6597700AA15D5 /* RSSItem.h */,
+				84FEF34A17D6597700AA15D5 /* RSSItem.m */,
 				84D5E42217D49E8D006EA735 /* NerdFeed.xcdatamodeld */,
 				84D5E41117D49E8D006EA735 /* Supporting Files */,
 			);
@@ -273,6 +288,9 @@
 				84D5E41717D49E8D006EA735 /* main.m in Sources */,
 				84D5E41B17D49E8D006EA735 /* AppDelegate.m in Sources */,
 				84D5E42417D49E8D006EA735 /* NerdFeed.xcdatamodeld in Sources */,
+				84D5E44517D4A132006EA735 /* ListViewController.m in Sources */,
+				84D5E44817D4C85C006EA735 /* RSSChannel.m in Sources */,
+				84FEF34B17D6597700AA15D5 /* RSSItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +465,7 @@
 				84D5E43F17D49E8D006EA735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D5E44017D49E8D006EA735 /* Build configuration list for PBXNativeTarget "NerdFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +474,7 @@
 				84D5E44217D49E8D006EA735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
